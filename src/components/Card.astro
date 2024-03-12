@@ -1,0 +1,16 @@
+---
+import type { LLLink } from '../types.ts'
+import Icon from './Icon.astro'
+
+
+
+export interface Props {
+    link: LLLink
+}
+
+const { link } = Astro.props
+---
+<a href={ link.href } class="link">
+    { link.icon ? <Icon icon={link.icon} /> : "" }
+    <span>{ link.name }</span>
+</a>
