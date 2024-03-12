@@ -7,25 +7,7 @@ export const Config: LLConfig = {
     image: "/favicon.svg",
     links: [
         {
-            name: "GitHub",
-            href: "https://github.com/ash-entwisle/lazylink",
-            desc: "LazyLink's GitHub repo",
-            link: "github",
-            icon: {
-                code: "f09b",
-                bold: false
-            }
-        }, {
-            name: "Fork me!",
-            href: "https:/github.com/ash-entwisle/lazylink/fork",
-            desc: "Fork me on GitHub to make your own!",
-            link: "fork",
-            icon: {
-                code: "e13b",
-                bold: true
-            }
-        }, {
-            name: "More From Me",
+            name: "My Site",
             href: "https://ashentwisle.com",
             desc: "Check out my other stuff!",
             link: "website",
@@ -34,11 +16,32 @@ export const Config: LLConfig = {
                 bold: true
             }
         }, {
-            name: "Hidden Link",
-            href: "https://youtu.be/dQw4w9WgXcQ",
-            desc: "This link is hidden!",
-            link: "ssssh",
-            hide: true
-        }
+            name: "My Blog",
+            href: "https://ashentwisle.com/blog",
+            desc: "Check out my Blog!",
+            link: "blog",
+            icon: {
+                code: "f09e",
+                bold: true
+            }
+        }, {
+            name: "My Github",
+            href: "https://github.com/ash-entwisle/",
+            desc: "LazyLink's GitHub repo",
+            link: "github",
+            icon: {
+                code: "f09b",
+                bold: false
+            }
+        }, {
+            name: "My CV",
+            href: "https://raw.githubusercontent.com/ash-entwisle/cv/main/cv.pdf?token=GHSAT0AAAAAAB7KUZJBRPVQMKORNISRHXM6ZAO7BLQ",
+            desc: "My CV",
+            link: "cv",
+            icon: {
+                code: "f02d",
+                bold: true
+            }
+        }, 
     ]
 }
