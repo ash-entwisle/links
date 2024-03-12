@@ -35,7 +35,7 @@ export const Config: LLConfig = {
             }
         }, {
             name: "My CV",
-            href: "https://raw.githubusercontent.com/ash-entwisle/cv/main/cv.pdf?token=GHSAT0AAAAAAB7KUZJBRPVQMKORNISRHXM6ZAO7BLQ",
+            href: "https://raw.githubusercontent.com/ash-entwisle/cv/main/cv.pdf",
             desc: "My CV",
             link: "cv",
             icon: {
