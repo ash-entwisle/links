@@ -2,8 +2,8 @@ import type { LLConfig } from "../src/types";
 
 
 export const Config: LLConfig = {
-    title: "Hi! I'm Ash!",
-    about: "2nd year Comp-Sci student who loves rust, linux, mechanical keyboards, toasters and blue ikea sharks :3",
+    title: "Hi, I'm Ash!",
+    about: "I'ma a 2nd year Comp-Sci student who loves rust, linux, mechanical keyboards, toasters and blue ikea sharks :3",
     image: "/favicon.svg",
     links: [
         {
